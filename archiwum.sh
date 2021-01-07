@@ -1,6 +1,6 @@
 #!/bin/bash
 ARCHIVE_PATH=/home/s96462/archiwum
-DATE=`date +%y-%m-%d-%H-%M`
+DATE=`date`
 arg=$#
 if [ "$#" = 1 ]; then
 	if [ -d "$1" ]; then
